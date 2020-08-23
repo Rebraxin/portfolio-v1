@@ -10,7 +10,7 @@ function Home(){
   const paramConfig = {
     particles: {
       number: {
-        value: 160,
+        value: 200,
         density: {
           enable: false,
         },

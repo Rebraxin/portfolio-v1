@@ -15,15 +15,19 @@ const AnimatedTyping = () => (
       I've been exploring
       <Delay ms={750} />
       <Speed ms={80} />
+      <b> Databases</b>
+      <Delay ms={1000} />
+      <Speed ms={20} />
+      <Backspace count={10} />
       <b> Photoshop</b>
       <Delay ms={1000} />
       <Speed ms={20} />
       <Backspace count={10} />
       <Speed ms={80} />
-      <b> After-Effect</b>
+      <b> Wireframes</b>
       <Delay ms={1000} />
       <Speed ms={20} />
-      <Backspace count={13} />
+      <Backspace count={11} />
       <Speed ms={80} />
       <b> Web Design</b>
       <Delay ms={1000} />
