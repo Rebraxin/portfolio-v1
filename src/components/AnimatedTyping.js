@@ -19,6 +19,7 @@ const AnimatedTyping = () => (
       <Delay ms={1000} />
       <Speed ms={20} />
       <Backspace count={10} />
+      <Speed ms={80} />
       <b> Photoshop</b>
       <Delay ms={1000} />
       <Speed ms={20} />
