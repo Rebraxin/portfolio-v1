@@ -127,7 +127,17 @@ const database = {
   ],
   portfolios: [
     {
-      id: 1,
+      id: 4,
+      title: 'Whatsapp-Clone',
+      subtitle:
+        'Let\'s build a Whatsapp Clone with Google Auth and Firestore real-time database',
+      imageUrl: '/images/portfolio-whatsapp.png',
+      largeImageUrl: ['/images/portfolio-whatsapp-lg.png'],
+      url: 'https://whattsapp-clone-abddf.web.app/',
+      git: 'https://github.com/Rebraxin/whatsapp-clone-react',
+    },
+    {
+      id: 5,
       title: 'Animation',
       subtitle:
         'Discovery of Gsap, ScrollMagic & Barba - Made with JavaScript Vanilla.',
@@ -137,7 +147,7 @@ const database = {
       git: 'https://github.com/Rebraxin/template-website-js-animation',
     },
     {
-      id: 2,
+      id: 6,
       title: 'Colors Palette',
       subtitle:
         'Improving my skills with JS events & localStorage - Made with JavaScrip Vanilla.',
@@ -147,7 +157,7 @@ const database = {
       git: 'https://github.com/Rebraxin/training-js-colors-palette',
     },
     {
-      id: 3,
+      id: 7,
       title: 'Beatmaker',
       subtitle:
         "Project in order to practice with 'this.' operator - Made with JavaScript Vanilla.",
@@ -157,7 +167,7 @@ const database = {
       git: 'https://github.com/Rebraxin/learning-js-beatmaker',
     },
     {
-      id: 4,
+      id: 8,
       title: 'Espoir Sur Pattes',
       subtitle: 'Awesome website to help animals - Made with Symfony.',
       imageUrl: '/images/portfolio-esp.png',
@@ -166,7 +176,7 @@ const database = {
       git: 'https://github.com/Rebraxin/EspoirSurPattes',
     },
     {
-      id: 5,
+      id: 9,
       title: "O'brasseur",
       subtitle: 'Practicing Bootstrap & responsive website - Made with Bootstrap/CSS.',
       imageUrl: '/images/portfolio-restaurant.png',
@@ -175,7 +185,7 @@ const database = {
       git: 'https://github.com/Rebraxin/resto-template',
     },
     {
-      id: 6,
+      id: 10,
       title: "SVG stroke Animation",
       subtitle: 'Project to learn how animate an SVG file - Made with HTML/SCSS.',
       imageUrl: '/images/portfolio-svg.png',
