@@ -23,7 +23,7 @@ const database = {
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf',
+    cvfile: '/files/CV-Dark-Cedric.pdf',
   },
   services: [
     {
@@ -238,27 +238,27 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        year: '2018 - 2019',
-        graduation: 'Master of Science',
-        university: 'Abc University',
+        year: '10/2019 - 04/2020',
+        graduation: 'Higher National Diplome in Web Development',
+        university: 'O\'Clock',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Remote Courses - Labelled \'Grande Ecole du Numérique\' - 3 months of basics : CSS/PGP/JavaScript - 1 month of specialisation with Symfony - 1 month of specialisation with React/Redux - 1 month of Apothéose Project.',
       },
       {
         id: 2,
-        year: '2016 - 2018',
-        graduation: 'Bachelor of Science',
-        university: 'Abc University',
+        year: '09/2008 - 07/2009',
+        graduation: 'Natinal Vocational Qualification',
+        university: 'Compagnons du Devoir',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Theoretical and practical courses to become a roofer-zinger',
       },
       {
         id: 3,
-        year: '2015 - 2016',
-        graduation: 'Higher Schoold Graduation',
-        university: 'Abc College',
+        year: '1998 - 2000',
+        graduation: 'High-School Degree',
+        university: 'Ampère College',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Traditional schooling',
       },
     ],
   },
