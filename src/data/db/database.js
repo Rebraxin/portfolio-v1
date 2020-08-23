@@ -180,27 +180,59 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: '2018 - Present',
-        position: 'Frontend Web Developer',
-        company: 'Abc Company',
+        year: '06/2020 - Present',
+        position: 'Self-service Employee',
+        company: 'Manpower',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Qualitative and quantitative control of deliveries - Visual shelf placement - Placement of articles at the checkouts - Proposal for product association',
       },
       {
         id: 2,
-        year: '2016 - 2018',
-        position: 'Frontend Web Developer',
-        company: 'CBA Company',
+        year: '04/2020 - 05/2020',
+        position: 'Fullstack Web Developer',
+        company: 'O\'Clock',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Agile method and SCRUM meetings - MCD design, Wireframes, User Stories Data Dictionary - Responsive integration with Bootstrap - Manipulation of Symfony\'s ORM to manage the Database - Application debugging and unit tests - Deployment on VPS configured by myself.',
       },
       {
         id: 3,
-        year: '2014 - 1016',
-        position: 'UI/UX Designer',
-        company: 'Example Company',
+        year: '01/2019 - 04/2019',
+        position: 'Sales Adviser',
+        company: 'Leroy Merlin',
         details:
-          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.',
+          'Welcoming and orienting the customer - Analysing his request and advising him - Proposals for sales/complementary products - Closing sales and collection - Ensuring that my department is kept clean and tidy.',
+      },
+      {
+        id: 4,
+        year: '01/2018 - 12/2018',
+        position: 'Cashier\'s host',
+        company: 'Grand Frais',
+        details:
+          'Entering sales - Charging collection - Customer information and orientation.',
+      },
+      {
+        id: 5,
+        year: '02/2010 - 12/2017',
+        position: 'Roofer-Zinger',
+        company: 'Beaufils',
+        details:
+          'Safety on the building site and wearing of PPE - Reading plans and taking measurements - Cutting, bending and shaping of the elements of Zinc/Copper roofing - Preparation and installation of roofing elements for the waterproofing of all types of buildings - Installation of water drainage devices - Installation of cladding and small masonry.',
+      },
+      {
+        id: 6,
+        year: '03/2004 - 04/2007',
+        position: 'Logistics Agent',
+        company: 'Ecotel',
+        details:
+          'Managing the flow of goods using IT tools - Editing purchase orders, delivery notes and invoices - Ensuring the receipt, storage, preparation and dispatch of goods - Managing furniture assembly and exhibition in the showroom.',
+      },
+      {
+        id: 7,
+        year: '09/2000 - 06/2003',
+        position: 'Driver-Delivery',
+        company: 'PEJY Transport',
+        details:
+          'Alternating between driving, carrying and customer contact - Multiple movements and handling of loads of varying nature and weight - Working irregular hours depending on the nature of the activity - Compliance with health and safety rules (transport of hazardous products).',
       },
     ],
     educationExperience: [

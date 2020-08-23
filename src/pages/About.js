@@ -97,9 +97,9 @@ function About() {
                       <b>Address</b> {information.address}
                     </li>
                   )}
-                  {!information.address ? null : (
+                  {!information.address1 ? null : (
                     <li>
-                      <b>Area Code</b> {information.address}
+                      <b>Area Code</b> {information.address1}
                     </li>
                   )}
                   {!information.freelanceStatus ? null : (
