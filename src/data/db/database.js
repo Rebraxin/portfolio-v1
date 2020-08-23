@@ -105,7 +105,7 @@ const database = {
       value: 70,
     },
     {
-      title: 'jQuery',
+      title: 'Bootstrap',
       value: 85,
     },
     {
@@ -114,7 +114,15 @@ const database = {
     },
     {
       title: 'Photoshop',
-      value: 65,
+      value: 70,
+    },
+    {
+      title: 'Symfony',
+      value: 80,
+    },
+    {
+      title: 'Git',
+      value: 90,
     },
   ],
   portfolios: [
