@@ -7,10 +7,10 @@ const AnimatedTyping = () => (
   <Typing loop={true}>
     <div>
       <Speed ms={40} />
-      I am<b> Web Devlopper</b>
+      I am<b> Web Developper</b>
       <Delay ms={1000} />
       <Speed ms={20} />
-      <Backspace count={20} />
+      <Backspace count={21} />
       <Speed ms={40} />
       I've been exploring
       <Delay ms={750} />

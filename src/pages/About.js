@@ -55,7 +55,7 @@ function About() {
                 </h3>
                 <p>
                   I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
+                  pixel perfect design. I also make websites more & more
                   interactive with web animations.
                 </p>
                 <ul>
@@ -66,7 +66,7 @@ function About() {
                   )}
                   {!information.age ? null : (
                     <li>
-                      <b>Age</b> {information.age} Years
+                      <b>Age</b> {information.age} Years old
                     </li>
                   )}
                   {!information.phone ? null : (

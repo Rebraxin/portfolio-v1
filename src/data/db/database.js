@@ -8,7 +8,7 @@ const database = {
     nationality: 'French',
     language: 'French, English',
     email: 'cedric.paje@gmail.com',
-    address: '340 rue de l\'Europe',
+    address: "340 rue de l'Europe",
     address1: '01630 Saint-Genis-Pouilly',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -48,7 +48,7 @@ const database = {
       title: 'Github',
       icon: 'github',
       details:
-        'The majority of my projects are hosted on github and I know all the command lines.',
+        'The majority of my projects are hosted on Github and I know all the command lines.',
     },
     {
       title: 'Database',
@@ -60,8 +60,8 @@ const database = {
       title: 'Environment',
       icon: 'display-alt',
       details:
-        'I mainly work on linux and its terminal. Command lines are no longer a problem.',
-    }
+        'I mainly work on Linux and its Terminal. Command lines are no longer a problem.',
+    },
   ],
   reviews: [
     {
@@ -130,7 +130,7 @@ const database = {
       id: 4,
       title: 'Whatsapp-Clone',
       subtitle:
-        'Let\'s build a Whatsapp Clone with Google Auth and Firestore real-time database',
+        "Let's build a Whatsapp Clone with Google Auth and Firestore real-time database",
       imageUrl: '/images/portfolio-whatsapp.png',
       largeImageUrl: ['/images/portfolio-whatsapp-lg.png'],
       url: 'https://whattsapp-clone-abddf.web.app/',
@@ -178,7 +178,8 @@ const database = {
     {
       id: 9,
       title: "O'brasseur",
-      subtitle: 'Practicing Bootstrap & responsive website - Made with Bootstrap/CSS.',
+      subtitle:
+        'Practicing Bootstrap & responsive website - Made with Bootstrap/CSS.',
       imageUrl: '/images/portfolio-restaurant.png',
       largeImageUrl: ['/images/portfolio-restaurant-lg.png'],
       url: 'https://rebraxin.github.io/resto-template/',
@@ -186,8 +187,9 @@ const database = {
     },
     {
       id: 10,
-      title: "SVG stroke Animation",
-      subtitle: 'Project to learn how animate an SVG file - Made with HTML/SCSS.',
+      title: 'SVG stroke Animation',
+      subtitle:
+        'Project to learn how animate an SVG file - Made with HTML/SCSS.',
       imageUrl: '/images/portfolio-svg.png',
       largeImageUrl: ['/images/portfolio-svg-lg.png'],
       url: 'https://rebraxin.github.io/animation-test/',
@@ -201,82 +203,121 @@ const database = {
         year: '06/2020 - Present',
         position: 'Self-service Employee',
         company: 'Manpower',
-        details:
-          'Qualitative and quantitative control of deliveries - Visual shelf placement - Placement of articles at the checkouts - Proposal for product association',
+        details: [
+          'Qualitative and quantitative control of deliveries',
+          'Visual shelf placement',
+          'Visual shelf placement',
+          'Proposal for product association',
+          'Placement of articles at the checkouts',
+        ],
       },
       {
         id: 2,
         year: '04/2020 - 05/2020',
         position: 'Fullstack Web Developer',
-        company: 'O\'Clock',
-        details:
-          'Agile method and SCRUM meetings - MCD design, Wireframes, User Stories Data Dictionary - Responsive integration with Bootstrap - Manipulation of Symfony\'s ORM to manage the Database - Application debugging and unit tests - Deployment on VPS configured by myself.',
+        company: "O'Clock",
+        details: [
+          'Agile method and SCRUM meetings',
+          'MCD design, Wireframes, User Stories Data Dictionary',
+          'Responsive integration with Bootstrap',
+          "Manipulation of Symfony's ORM to manage the Database",
+          'Application debugging and unit tests',
+          'Deployment on VPS configured by myself',
+        ],
       },
       {
         id: 3,
         year: '01/2019 - 04/2019',
         position: 'Sales Adviser',
         company: 'Leroy Merlin',
-        details:
-          'Welcoming and orienting the customer - Analysing his request and advising him - Proposals for sales/complementary products - Closing sales and collection - Ensuring that my department is kept clean and tidy.',
+        details: [
+          'Welcoming and orienting the customers',
+          'Analysing their requests and advising them',
+          'Proposals for sales/complementary products',
+          'Closing sales and collection',
+          'Ensuring that my department is kept clean and tidy',
+        ],
       },
       {
         id: 4,
         year: '01/2018 - 12/2018',
-        position: 'Cashier\'s host',
+        position: "Cashier's host",
         company: 'Grand Frais',
-        details:
-          'Entering sales - Charging collection - Customer information and orientation.',
+        details: [
+          'Entering sales',
+          'Charging collections',
+          'Customers information and orientation',
+        ],
       },
       {
         id: 5,
         year: '02/2010 - 12/2017',
         position: 'Roofer-Zinger',
         company: 'Beaufils',
-        details:
-          'Safety on the building site and wearing of PPE - Reading plans and taking measurements - Cutting, bending and shaping of the elements of Zinc/Copper roofing - Preparation and installation of roofing elements for the waterproofing of all types of buildings - Installation of water drainage devices - Installation of cladding and small masonry.',
+        details: [
+          'Safety on the building site and wearing of PPE',
+          'Reading plans and taking measurements',
+          'Cutting, bending and shaping the elements of Zinc/Copper roofing',
+          'Preparation and installation of roofing elements for the waterproofing of all types of buildings',
+          'Installation of water drainage devices',
+          'Installation of cladding and small masonry',
+        ],
       },
       {
         id: 6,
         year: '03/2004 - 04/2007',
         position: 'Logistics Agent',
         company: 'Ecotel',
-        details:
-          'Managing the flow of goods using IT tools - Editing purchase orders, delivery notes and invoices - Ensuring the receipt, storage, preparation and dispatch of goods - Managing furniture assembly and exhibition in the showroom.',
+        details: [
+          'Managing the flow of goods using IT tools',
+          'Editing purchase orders, delivery notes and invoices',
+          'Ensuring the receipt, storage, preparation and dispatch of goods',
+          'Managing furniture assembly and exhibition in the showroom',
+        ],
       },
       {
         id: 7,
         year: '09/2000 - 06/2003',
         position: 'Driver-Delivery',
         company: 'PEJY Transport',
-        details:
-          'Alternating between driving, carrying and customer contact - Multiple movements and handling of loads of varying nature and weight - Working irregular hours depending on the nature of the activity - Compliance with health and safety rules (transport of hazardous products).',
+        details: [
+          'Alternating between driving, carrying and customer contact',
+          'Multiple movements and handling of loads of varying nature and weight',
+          'Working irregular hours depending on the nature of the activity',
+          'Compliance with health and safety rules (transport of hazardous products)',
+        ],
       },
     ],
     educationExperience: [
       {
         id: 1,
         year: '10/2019 - 04/2020',
-        graduation: 'Higher National Diplome in Web Development',
-        university: 'O\'Clock',
-        details:
-          'Remote Courses - Labelled \'Grande Ecole du Numérique\' - 3 months of basics : CSS/PGP/JavaScript - 1 month of specialisation with Symfony - 1 month of specialisation with React/Redux - 1 month of Apothéose Project.',
+        graduation: 'Higher National Diploma in Web Development',
+        university: "O'Clock",
+        details: [
+          'Remote Courses',
+          "Labelled 'Grande Ecole du Numérique'",
+          '3 months of basics : CSS/PHP/JavaScript',
+          '1 month of specialisation with Symfony',
+          '1 month of specialisation with React/Redux',
+          '1 month of Apothéose Project.',
+        ],
       },
       {
         id: 2,
         year: '09/2008 - 07/2009',
-        graduation: 'Natinal Vocational Qualification',
+        graduation: 'National Vocational Qualification',
         university: 'Compagnons du Devoir',
-        details:
+        details: [
           'Theoretical and practical courses to become a roofer-zinger',
+        ],
       },
       {
         id: 3,
         year: '1998 - 2000',
         graduation: 'High-School Degree',
         university: 'Ampère College',
-        details:
-          'Traditional schooling',
+        details: ['Traditional schooling'],
       },
     ],
   },
@@ -422,7 +463,7 @@ const database = {
   contactInfo: {
     phoneNumbers: ['+33-637-964-370'],
     emailAddress: ['cedric.paje@gmail.com'],
-    address: '340 rue de l\'Europe, 01630 Saint-Genis-Pouilly, France',
+    address: "340 rue de l'Europe, 01630 Saint-Genis-Pouilly, France",
   },
 };
 

@@ -60,8 +60,20 @@
       font-weight: 700;
     }
 
-    p {
+    ul {
       margin-bottom: 0;
+      list-style: none;
+      li::before {
+        content: "\2022";
+        color: $color-theme;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+      }
+      li {
+        margin-left: 20px;
+      }
     }
   }
 
