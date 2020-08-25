@@ -206,7 +206,6 @@ const database = {
         details: [
           'Qualitative and quantitative control of deliveries',
           'Visual shelf placement',
-          'Visual shelf placement',
           'Proposal for product association',
           'Placement of articles at the checkouts',
         ],
