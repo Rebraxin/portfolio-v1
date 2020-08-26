@@ -40,6 +40,10 @@
     }
   }
 
+  .cursorStyle {
+    color: #a4acc4 !important;
+  }
+
   @media #{$layout-laptop}{
     &-content{
       padding: 50px 0px;
