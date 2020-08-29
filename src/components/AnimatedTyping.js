@@ -37,7 +37,7 @@ const AnimatedTyping = () => (
       <b> Backend</b>
       <Delay ms={1000} />
       <Speed ms={20} />
-      <Backspace count={30} />
+      <Backspace count={31} />
     </div>
   </Typing>
 );
