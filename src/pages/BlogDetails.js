@@ -1,27 +1,29 @@
-import React, { useState, useEffect } from "react";
-import ReactMarkdown from "react-markdown/with-html";
-import axios from "axios";
-import Disqus from "disqus-react";
-import Layout from "../components/Layout";
+// == Import npm
+import React, { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown/with-html';
+import axios from 'axios';
+import Disqus from 'disqus-react';
 
-function BlogDetails(props) {
-  const [content, setContent] = useState("");
+// == Import local
+import Layout from '../components/Layout';
+
+// == Component
+const BlogDetails = (props) => {
+  const [content, setContent] = useState('');
   const blogId = props.match.params.id;
   const blogFile = props.match.params.title;
 
   useEffect(() => {
-    axios
-      .get(require(`../blog/${blogFile}.md`))
-      .then(result => {
-        setContent(result.data);
-      })
+    axios.get(require(`../blog/${blogFile}.md`)).then((result) => {
+      setContent(result.data);
+    });
   }, [content, blogFile]);
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  const disqusShortname = '#'; //found in your Disqus.com dashboard
   const disqusConfig = {
-    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+    url: '#', //Homepage link of this site.
     identifier: blogId,
-    title: blogFile
+    title: blogFile,
   };
 
   return (
@@ -39,6 +41,7 @@ function BlogDetails(props) {
       </div>
     </Layout>
   );
-}
+};
 
+// == Export default
 export default BlogDetails;

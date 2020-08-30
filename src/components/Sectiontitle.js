@@ -1,6 +1,8 @@
+// == Import npm
 import React from "react";
 
-function Sectiontitle(props) {
+// == Component
+const Sectiontitle = (props) => {
   return (
     <div className="mi-sectiontitle">
       <h2>{props.title}</h2>
@@ -9,4 +11,5 @@ function Sectiontitle(props) {
   );
 }
 
+// == Export default
 export default Sectiontitle;

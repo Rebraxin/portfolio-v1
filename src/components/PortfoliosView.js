@@ -1,11 +1,14 @@
-import React from "react";
-import TrackVisibility from "react-on-screen";
+// == Import npm
+import React from 'react';
+import TrackVisibility from 'react-on-screen';
+
+// == Import local
 import Portfolio from '../components/Portfolio';
 
-function PortfoliosView({portfolios}) {
+const PortfoliosView = ({ portfolios }) => {
   return (
     <div className="row mt-30-reverse">
-      {portfolios.map(portfolio => (
+      {portfolios.map((portfolio) => (
         <TrackVisibility
           once
           offset={200}
@@ -17,6 +20,7 @@ function PortfoliosView({portfolios}) {
       ))}
     </div>
   );
-}
+};
 
+// == Export default
 export default PortfoliosView;

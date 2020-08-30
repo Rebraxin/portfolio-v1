@@ -1,6 +1,8 @@
+// Import npm
 import React from 'react';
 
-function Resume(props) {
+// == Component
+const Resume = (props) => {
   const {
     year,
     position,
@@ -25,6 +27,7 @@ function Resume(props) {
       </div>
     </div>
   );
-}
+};
 
+// == Export default
 export default Resume;

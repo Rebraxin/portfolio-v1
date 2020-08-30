@@ -1,6 +1,8 @@
+// == Import npm
 import React from 'react'
 
-function BackgroundLines(props){
+// == Component
+const BackgroundLines = (props) =>{
   return (
     <div className="mi-bglines">
       <span></span>
@@ -12,4 +14,5 @@ function BackgroundLines(props){
   )
 }
 
+// == Export default
 export default BackgroundLines;

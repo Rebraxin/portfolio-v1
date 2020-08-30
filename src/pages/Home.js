@@ -1,12 +1,16 @@
-import React, { useState, useEffect } from "react";
+// == Import npm
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Particles from "react-particles-js";
-import Socialicons from "../components/Socialicons";
-import Layout from "../components/Layout";
+import Particles from 'react-particles-js';
+import Socialicons from '../components/Socialicons';
+
+// == Import local
+import Layout from '../components/Layout';
 import AnimatedTyping from '../components/AnimatedTyping';
 
-function Home(){
-  const [information, setInformation] = useState("");
+// == Component
+const Home = () => {
+  const [information, setInformation] = useState('');
   const paramConfig = {
     particles: {
       number: {
@@ -40,12 +44,11 @@ function Home(){
       },
     },
   };
-  useEffect(() =>{
-    axios.get('/api/information')
-    .then( response => {
+  useEffect(() => {
+    axios.get('/api/information').then((response) => {
       setInformation(response.data);
-    })
-  }, [])
+    });
+  }, []);
   return (
     <Layout>
       <div className="mi-home-area mi-padding-section">
@@ -55,7 +58,8 @@ function Home(){
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  Hi, I am <span className="color-theme">{information.name}</span>
+                  Hi, I am{' '}
+                  <span className="color-theme">{information.name}</span>
                 </h1>
                 <AnimatedTyping className="test" />
                 {/* <p>{information.aboutContent}</p> */}
@@ -67,6 +71,7 @@ function Home(){
       </div>
     </Layout>
   );
-}
+};
 
+// == Export default
 export default Home;

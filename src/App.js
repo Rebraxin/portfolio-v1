@@ -1,16 +1,20 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "./App.scss";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Resumes from "./pages/Resumes";
-import Portfolios from "./pages/Portfolios";
-// import Blogs from "./pages/Blogs";
-import Contact from "./pages/Contact";
-// import BlogDetails from "./pages/BlogDetails";
-import Notfound from "./pages/Notfound";
+// == Import npm
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-function App() {
+// == Import local
+import './App.scss';
+import Home from './pages/Home';
+import About from './pages/About';
+import Resumes from './pages/Resumes';
+import Portfolios from './pages/Portfolios';
+// import Blogs from "./pages/Blogs";
+import Contact from './pages/Contact';
+// import BlogDetails from "./pages/BlogDetails";
+import Notfound from './pages/Notfound';
+
+// == Component
+const App = () => {
   return (
     <BrowserRouter>
       <Switch>
@@ -25,6 +29,7 @@ function App() {
       </Switch>
     </BrowserRouter>
   );
-}
+};
 
+// == Export default
 export default App;

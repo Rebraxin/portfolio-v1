@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import FsLightbox from "fslightbox-react";
-import * as Icon from "react-feather";
-import Sectiontitle from "../components/Sectiontitle";
-import Layout from "../components/Layout";
-import Service from "../components/Service";
+// == Import npm
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import FsLightbox from 'fslightbox-react';
+import * as Icon from 'react-feather';
 
-function About() {
+// == Import local
+import Sectiontitle from '../components/Sectiontitle';
+import Layout from '../components/Layout';
+import Service from '../components/Service';
+
+// == Component
+const About = () => {
   const [toggler, setToggler] = useState(false);
-  const [information, setInformation] = useState("");
+  const [information, setInformation] = useState('');
   const [services, setServices] = useState([]);
 
   const handleToggler = (event) => {
@@ -18,10 +22,10 @@ function About() {
   };
 
   useEffect(() => {
-    axios.get("/api/information").then((response) => {
+    axios.get('/api/information').then((response) => {
       setInformation(response.data);
     });
-    axios.get("/api/services").then((response) => {
+    axios.get('/api/services').then((response) => {
       setServices(response.data);
     });
   }, []);
@@ -135,6 +139,7 @@ function About() {
       </div>
     </Layout>
   );
-}
+};
 
+// == Export default
 export default About;

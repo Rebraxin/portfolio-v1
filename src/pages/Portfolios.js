@@ -1,11 +1,15 @@
+// == Import npm
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+
+// == Import local
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Pagination from "../components/Pagination";
 import PortfoliosView from "../components/PortfoliosView";
 
-function Portfolios() {
+// == Component
+const Portfolios = () => {
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(9);
@@ -53,4 +57,5 @@ function Portfolios() {
   );
 }
 
+// == Export default
 export default Portfolios;

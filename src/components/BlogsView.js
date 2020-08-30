@@ -1,7 +1,10 @@
+// == Import npm
 import React from "react";
+
+// == Import local
 import Blog from './Blog';
 
-function BlogsView({blogs}) {
+const BlogsView = ({blogs}) => {
   return (
     <div className="row mt-30-reverse">
       {blogs.map(blog => (
@@ -13,4 +16,5 @@ function BlogsView({blogs}) {
   );
 }
 
+// == Export default
 export default BlogsView;
