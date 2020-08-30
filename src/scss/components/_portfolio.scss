@@ -2,7 +2,7 @@
  * Portfolio
  */
 
-.mi-portfolio {
+.my-portfolio {
   transition: $transition;
   visibility: hidden;
   opacity: 0;
@@ -105,7 +105,7 @@
     }
   }
 
-  &.mi-portfolio-visible{
+  &.my-portfolio-visible{
     visibility: visible;
     opacity: 1;
   }

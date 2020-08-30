@@ -17,8 +17,8 @@ const Socialicons = (props) => {
     <ul
       className={
         props.bordered
-          ? 'mi-socialicons mi-socialicons-bordered'
-          : 'mi-socialicons'
+          ? 'my-socialicons my-socialicons-bordered'
+          : 'my-socialicons'
       }
     >
       {!socialLinks.facebook ? null : (

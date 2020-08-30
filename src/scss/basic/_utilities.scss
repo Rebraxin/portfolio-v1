@@ -2,7 +2,7 @@
  * Utilities
  */
 
-.mi-wrapper {
+.my-wrapper {
    padding-left: 300px;
    position: relative;
    min-height: 100vh;
@@ -45,7 +45,7 @@
    margin-top: 50px;
 }
 
-.mi-padding-top {
+.my-padding-top {
    padding-top: 120px;
 
    @media #{$layout-tablet} {
@@ -57,7 +57,7 @@
    }
 }
 
-.mi-padding-bottom {
+.my-padding-bottom {
    padding-bottom: 120px;
 
    @media #{$layout-tablet} {
@@ -69,11 +69,11 @@
    }
 }
 
-.mi-section {
+.my-section {
    position: relative;
 }
 
-.mi-bglines {
+.my-bglines {
    position: absolute;
    left: 300px;
    top: 0;

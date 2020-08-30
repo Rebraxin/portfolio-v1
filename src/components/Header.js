@@ -20,22 +20,22 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={navigationToggler ? 'mi-header is-visible' : 'mi-header'}>
-      <button onClick={handleNavigationToggler} className="mi-header-toggler">
+    <nav className={navigationToggler ? 'my-header is-visible' : 'my-header'}>
+      <button onClick={handleNavigationToggler} className="my-header-toggler">
         {!navigationToggler ? (
           <LineIcon name="menu" />
         ) : (
           <LineIcon name="close" />
         )}
       </button>
-      <div className="mi-header-inner">
-        <div className="mi-header-image">
+      <div className="my-header-inner">
+        <div className="my-header-image">
           <Link to="/">
             <img src={information.brandImage} alt="brandimage" />
           </Link>
         </div>
 
-        <ul className="mi-header-menu">
+        <ul className="my-header-menu">
           <li>
             <NavLink exact to="/">
               <span>Home</span>
@@ -63,7 +63,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <p className="mi-header-copyright">
+        <p className="my-header-copyright">
           &copy; {new Date().getFullYear()}{' '}
           <b>
             <a

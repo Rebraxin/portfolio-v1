@@ -12,13 +12,13 @@ const Resume = (props) => {
     details,
   } = props.resumeData;
   return (
-    <div className="mi-resume mt-30">
-      <div className="mi-resume-summary">
-        <h6 className="mi-resume-year">{year}</h6>
+    <div className="my-resume mt-30">
+      <div className="my-resume-summary">
+        <h6 className="my-resume-year">{year}</h6>
       </div>
-      <div className="mi-resume-details">
+      <div className="my-resume-details">
         <h5>{position || graduation}</h5>
-        <h6 className="mi-resume-company">{company || university}</h6>
+        <h6 className="my-resume-company">{company || university}</h6>
         <ul>
           {details.map((detail, id) => (
             <li key={id}>{detail}</li>

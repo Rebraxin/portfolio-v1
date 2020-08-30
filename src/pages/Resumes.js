@@ -28,10 +28,10 @@ const Resumes = () => {
 
   return (
     <Layout>
-      <div className="mi-skills-area mi-section mi-padding-top">
+      <div className="my-skills-area my-section my-padding-top">
         <div className="container">
           <Sectiontitle title="My Skills" />
-          <div className="mi-skills">
+          <div className="my-skills">
             <div className="row mt-30-reverse">
               {skills.map((skill) => (
                 <TrackVisibility
@@ -46,18 +46,18 @@ const Resumes = () => {
           </div>
         </div>
       </div>
-      <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="my-resume-area my-section my-padding-top my-padding-bottom">
         <div className="container">
           <Sectiontitle title="Resume" />
           <Smalltitle title="Work Experiences" icon="briefcase" />
-          <div className="mi-resume-wrapper">
+          <div className="my-resume-wrapper">
             {workingExperience.map((workingExp) => (
               <Resume key={workingExp.id} resumeData={workingExp} />
             ))}
           </div>
           <div className="mt-30"></div>
           <Smalltitle title="Educational Qualifications" icon="book" />
-          <div className="mi-resume-wrapper">
+          <div className="my-resume-wrapper">
             {educationExperience.map((educatonExp) => (
               <Resume key={educatonExp.id} resumeData={educatonExp} />
             ))}

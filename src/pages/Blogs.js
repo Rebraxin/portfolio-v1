@@ -34,7 +34,7 @@ const Blogs = () => {
 
   return (
     <Layout>
-      <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
+      <div className="my-about my-section my-padding-top my-padding-bottom">
         <div className="container">
           <Sectiontitle title="Recent Blogs" />
           <BlogsView blogs={currentPosts} />

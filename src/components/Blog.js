@@ -15,17 +15,17 @@ const Blog = (props) => {
     return getName;
   };
   return (
-    <div className="mi-blog">
-      <div className="mi-blog-image">
+    <div className="my-blog">
+      <div className="my-blog-image">
         <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
           <img src={featuredImage} alt={title} />
         </Link>
-        <div className="mi-blog-date">
+        <div className="my-blog-date">
           <span className="date">{createDay}</span>
           <span className="month">{getShortMonth(createMonth)}</span>
         </div>
       </div>
-      <div className="mi-blog-content">
+      <div className="my-blog-content">
         <h5>
           <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
             {title}

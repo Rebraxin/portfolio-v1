@@ -15,10 +15,10 @@ const Portfolio = (props) => {
   return (
     <div
       className={
-        props.isVisible ? 'mi-portfolio mi-portfolio-visible' : 'mi-portfolio'
+        props.isVisible ? 'my-portfolio my-portfolio-visible' : 'my-portfolio'
       }
     >
-      <div className="mi-portfolio-image">
+      <div className="my-portfolio-image">
         <img src={imageUrl} alt={title} />
         <ul>
           {!largeImageUrl ? null : (

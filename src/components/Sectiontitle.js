@@ -4,7 +4,7 @@ import React from "react";
 // == Component
 const Sectiontitle = (props) => {
   return (
-    <div className="mi-sectiontitle">
+    <div className="my-sectiontitle">
       <h2>{props.title}</h2>
       <span>{props.title}</span>
     </div>

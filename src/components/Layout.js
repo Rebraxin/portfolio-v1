@@ -7,7 +7,7 @@ import BackgroundLines from '../components/BackgroundLines';
 
 const Layout = (props) => {
   return (
-    <div className="mi-wrapper">
+    <div className="my-wrapper">
       <BackgroundLines />
       <Header />
       {props.children}

@@ -5,8 +5,8 @@ import LineIcon from 'react-lineicons';
 // == Component
 const Smalltitle = (props) => {
   return (
-    <div className="mi-smalltitle">
-      <span className="mi-smalltitle-icon">
+    <div className="my-smalltitle">
+      <span className="my-smalltitle-icon">
         <LineIcon name={props.icon} />
       </span>
       <h4>{props.title}</h4>

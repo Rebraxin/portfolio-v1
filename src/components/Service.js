@@ -5,8 +5,8 @@ import LineIcon from 'react-lineicons';
 // == Component
 const Service = (props) => {
   return (
-    <div className="mi-service">
-      <span className="mi-service-icon">
+    <div className="my-service">
+      <span className="my-service-icon">
         <LineIcon name={props.content.icon} />
       </span>
       <h5>{props.content.title}</h5>

@@ -4,7 +4,7 @@ import React from 'react'
 // == Component
 const BackgroundLines = (props) =>{
   return (
-    <div className="mi-bglines">
+    <div className="my-bglines">
       <span></span>
       <span></span>
       <span></span>

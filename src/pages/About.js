@@ -32,18 +32,18 @@ const About = () => {
 
   return (
     <Layout>
-      <div className="mi-about-area mi-section mi-padding-top">
+      <div className="my-about-area my-section my-padding-top">
         <div className="container">
           <Sectiontitle title="About" />
           <div className="row">
             <div className="col-lg-6">
-              <div className="mi-about-image">
+              <div className="my-about-image">
                 <img
                   src={information.aboutImage}
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
                 />
-                <span className="mi-about-image-icon">
+                <span className="my-about-image-icon">
                   <Icon.ZoomIn />
                 </span>
                 <FsLightbox
@@ -53,7 +53,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="mi-about-content">
+              <div className="my-about-content">
                 <h3>
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
@@ -112,7 +112,7 @@ const About = () => {
                     </li>
                   )}
                 </ul>
-                <a href={information.cvfile} className="mi-button">
+                <a href={information.cvfile} className="my-button">
                   Download CV
                 </a>
               </div>
@@ -120,10 +120,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mi-service-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="my-service-area my-section my-padding-top my-padding-bottom">
         <div className="container">
           <Sectiontitle title="Abilities" />
-          <div className="mi-service-wrapper">
+          <div className="my-service-wrapper">
             <div className="row mt-30-reverse">
               {services.map((service) => (
                 <div

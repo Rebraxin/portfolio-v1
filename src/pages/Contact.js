@@ -82,19 +82,19 @@ const Contact = () => {
 
   return (
     <Layout>
-      <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="my-contact-area my-section my-padding-top my-padding-bottom">
         <div className="container">
           <Sectiontitle title="Contact Me" />
           <div className="row">
             <div className="col-lg-6">
-              <div className="mi-contact-formwrapper">
+              <div className="my-contact-formwrapper">
                 <h4>Get In Touch</h4>
                 <form
                   action="#"
-                  className="mi-form mi-contact-form"
+                  className="my-form my-contact-form"
                   onSubmit={submitHandler}
                 >
-                  <div className="mi-form-field">
+                  <div className="my-form-field">
                     <label htmlFor="contact-form-name">Enter your name*</label>
                     <input
                       onChange={handleChange}
@@ -104,7 +104,7 @@ const Contact = () => {
                       value={formdata.name}
                     />
                   </div>
-                  <div className="mi-form-field">
+                  <div className="my-form-field">
                     <label htmlFor="contact-form-email">
                       Enter your email*
                     </label>
@@ -116,7 +116,7 @@ const Contact = () => {
                       value={formdata.email}
                     />
                   </div>
-                  <div className="mi-form-field">
+                  <div className="my-form-field">
                     <label htmlFor="contact-form-subject">
                       Enter your subject*
                     </label>
@@ -128,7 +128,7 @@ const Contact = () => {
                       value={formdata.subject}
                     />
                   </div>
-                  <div className="mi-form-field">
+                  <div className="my-form-field">
                     <label htmlFor="contact-form-message">
                       Enter your Message*
                     </label>
@@ -141,8 +141,8 @@ const Contact = () => {
                       value={formdata.message}
                     ></textarea>
                   </div>
-                  <div className="mi-form-field">
-                    <button className="mi-button" type="submit" disabled>
+                  <div className="my-form-field">
+                    <button className="my-button" type="submit" disabled>
                       Coming Soon
                     </button>
                   </div>
@@ -151,13 +151,13 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="mi-contact-info">
+              <div className="my-contact-info">
                 {!phoneNumbers ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
+                  <div className="my-contact-infoblock">
+                    <span className="my-contact-infoblock-icon">
                       <Icon.Phone />
                     </span>
-                    <div className="mi-contact-infoblock-content">
+                    <div className="my-contact-infoblock-content">
                       <h6>Phone</h6>
                       {phoneNumbers.map((phoneNumber) => (
                         <p key={phoneNumber}>
@@ -170,11 +170,11 @@ const Contact = () => {
                   </div>
                 )}
                 {!emailAddress ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
+                  <div className="my-contact-infoblock">
+                    <span className="my-contact-infoblock-icon">
                       <Icon.Mail />
                     </span>
-                    <div className="mi-contact-infoblock-content">
+                    <div className="my-contact-infoblock-content">
                       <h6>Email</h6>
                       {emailAddress.map((email) => (
                         <p key={email}>
@@ -185,11 +185,11 @@ const Contact = () => {
                   </div>
                 )}
                 {!phoneNumbers ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
+                  <div className="my-contact-infoblock">
+                    <span className="my-contact-infoblock-icon">
                       <Icon.MapPin />
                     </span>
-                    <div className="mi-contact-infoblock-content">
+                    <div className="my-contact-infoblock-content">
                       <h6>Address</h6>
                       <p>{address}</p>
                     </div>

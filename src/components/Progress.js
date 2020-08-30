@@ -9,7 +9,7 @@ const Progress = (props) => {
     if (winWidth && winWidth > 767) {
       return (
         <span
-          className="mi-progress-active"
+          className="my-progress-active"
           style={
             props.isVisible ? { width: `${props.percentage}%` } : { width: 0 }
           }
@@ -18,19 +18,19 @@ const Progress = (props) => {
     }
     return (
       <span
-        className="mi-progress-active"
+        className="my-progress-active"
         style={{ width: `${props.percentage}%` }}
       ></span>
     );
   };
   return (
-    <div className="mi-progress">
-      <h6 className="mi-progress-title">{props.title}</h6>
-      <div className="mi-progress-inner">
-        <div className="mi-progress-percentage">
+    <div className="my-progress">
+      <h6 className="my-progress-title">{props.title}</h6>
+      <div className="my-progress-inner">
+        <div className="my-progress-percentage">
           <CountUp end={props.percentage} />%
         </div>
-        <div className="mi-progress-container">{progressQuery()}</div>
+        <div className="my-progress-container">{progressQuery()}</div>
       </div>
     </div>
   );
