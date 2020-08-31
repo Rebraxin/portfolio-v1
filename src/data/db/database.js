@@ -48,13 +48,13 @@ const database = {
       title: 'Github',
       icon: 'github',
       details:
-        'The majority of my projects are hosted on Github and I know the most used command lines.',
+        'The majority of my projects are hosted on Github and I know the most used commands lines.',
     },
     {
       title: 'Database',
       icon: 'database',
       details:
-        'I am able to create databases and also write SQL/DQL request to fetch datas.',
+        'I am able to create databases and also write SQL/DQL requests to fetch datas.',
     },
     {
       title: 'Environment',
