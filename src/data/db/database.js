@@ -48,13 +48,13 @@ const database = {
       title: 'Github',
       icon: 'github',
       details:
-        'The majority of my projects are hosted on Github and I know all the command lines.',
+        'The majority of my projects are hosted on Github and I know the most used command lines.',
     },
     {
       title: 'Database',
       icon: 'database',
       details:
-        'I am able to create databases and also to create relationships with different tables.',
+        'I am able to create databases and also write SQL/DQL request to fetch datas.',
     },
     {
       title: 'Environment',
@@ -94,43 +94,53 @@ const database = {
   skills: [
     {
       title: 'HTML5',
-      value: 95,
-    },
-    {
-      title: 'CSS3',
-      value: 90,
-    },
-    {
-      title: 'Javascript',
-      value: 70,
-    },
-    {
-      title: 'Bootstrap',
       value: 85,
     },
     {
-      title: 'ReactJS',
+      title: 'CSS3',
       value: 80,
     },
     {
-      title: 'Photoshop',
+      title: 'Javascript',
+      value: 60,
+    },
+    {
+      title: 'Bootstrap',
+      value: 75,
+    },
+    {
+      title: 'ReactJS',
       value: 70,
     },
     {
+      title: 'Photoshop',
+      value: 60,
+    },
+    {
       title: 'Symfony',
-      value: 80,
+      value: 70,
     },
     {
       title: 'Git',
-      value: 90,
+      value: 80,
     },
   ],
   portfolios: [
     {
+      id: 3,
+      title: 'Neumorphism Design',
+      subtitle:
+        "Small CSS integration based on a model by the famous designer Philip Legierski.",
+      imageUrl: '/images/portfolio-neumorphism.png',
+      largeImageUrl: ['/images/portfolio-neumorphism-lg.png'],
+      url: 'https://rebraxin.github.io/neumorphism-design/',
+      git: 'https://github.com/Rebraxin/neumorphism-design',
+    },
+    {
       id: 4,
       title: 'Whatsapp-Clone',
       subtitle:
-        "Let's build a Whatsapp Clone with Google Auth and Firestore real-time database",
+        "Let's build a Whatsapp Clone with Google Auth and Firestore real-time database.",
       imageUrl: '/images/portfolio-whatsapp.png',
       largeImageUrl: ['/images/portfolio-whatsapp-lg.png'],
       url: 'https://whattsapp-clone-abddf.web.app/',
