@@ -56,7 +56,6 @@ const Header = () => {
               <span>Projects</span>
             </NavLink>
           </li>
-          {/* <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li> */}
           <li>
             <NavLink to="/contact">
               <span>Contact</span>
