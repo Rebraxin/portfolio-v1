@@ -49,14 +49,14 @@ const Resumes = () => {
       <div className="my-resume-area my-section my-padding-top my-padding-bottom">
         <div className="container">
           <Sectiontitle title="Resume" />
-          <Smalltitle title="Work Experiences" icon="briefcase" />
+          <Smalltitle title="Experiences" icon="briefcase" />
           <div className="my-resume-wrapper">
             {workingExperience.map((workingExp) => (
               <Resume key={workingExp.id} resumeData={workingExp} />
             ))}
           </div>
           <div className="mt-30"></div>
-          <Smalltitle title="Educational Qualifications" icon="book" />
+          <Smalltitle title="Education" icon="book" />
           <div className="my-resume-wrapper">
             {educationExperience.map((educatonExp) => (
               <Resume key={educatonExp.id} resumeData={educatonExp} />

@@ -222,7 +222,44 @@ const database = {
       },
       {
         id: 2,
-        year: '04/2020 - 05/2020',
+        year: '06/2020 - 09/2020',
+        position: 'Web Developer Frontend',
+        company: 'Autodidact',
+        details: [
+          'Creation of React reusable components',
+          'Axios queries to get the datas',
+          'Implementation of react-router-dom for navigation',
+          'added libraries (react-particles; react-countup; react-typing-animation; slick-carrousel, node-sass, bootstrap)',
+          'Responsive integration',
+          'Deployment with Firebase',
+        ],
+      },
+      {
+        id: 3,
+        year: '08/2020 - 08/2020',
+        position: 'Web Developer Frontend',
+        company: 'Autodidact',
+        details: [
+          'Handling of JavaScript libraries for modern animations (Gsap, Barba and ScrollMagic)',
+          'Reviews on the different events in JavaScrip Vanilla',
+          'Hosted on Github Pages',
+        ],
+      },
+      {
+        id: 4,
+        year: '07/2020 - 07/2020',
+        position: 'Web Developer Frontend',
+        company: 'Autodidact',
+        details: [
+          'Reviews of events, querySelector & Callbacks functions in JavaScript Vanilla',
+          'Reading and Writing in localStorage',
+          'Getting to grips with chroma.js which allows to generate hexadecimal colors, to manage saturation, contrast and luminosity',
+          'Hosted on Github Pages',
+        ],
+      },
+      {
+        id: 5,
+        year: '10/2019 - 05/2020',
         position: 'Fullstack Web Developer',
         company: "O'Clock",
         details: [
@@ -235,7 +272,7 @@ const database = {
         ],
       },
       {
-        id: 3,
+        id: 6,
         year: '01/2019 - 04/2019',
         position: 'Sales Adviser',
         company: 'Leroy Merlin',
@@ -248,7 +285,7 @@ const database = {
         ],
       },
       {
-        id: 4,
+        id: 7,
         year: '01/2018 - 12/2018',
         position: "Cashier's host",
         company: 'Grand Frais',
@@ -259,7 +296,7 @@ const database = {
         ],
       },
       {
-        id: 5,
+        id: 8,
         year: '02/2010 - 12/2017',
         position: 'Roofer-Zinger',
         company: 'Beaufils',
@@ -273,7 +310,7 @@ const database = {
         ],
       },
       {
-        id: 6,
+        id: 9,
         year: '03/2004 - 04/2007',
         position: 'Logistics Agent',
         company: 'Ecotel',
@@ -285,7 +322,7 @@ const database = {
         ],
       },
       {
-        id: 7,
+        id: 10,
         year: '09/2000 - 06/2003',
         position: 'Driver-Delivery',
         company: 'PEJY Transport',
@@ -323,7 +360,7 @@ const database = {
       },
       {
         id: 3,
-        year: '1998 - 2000',
+        year: '09/1998 - 07/2000',
         graduation: 'High-School Degree',
         university: 'Ampère College',
         details: ['Traditional schooling'],
