@@ -112,8 +112,21 @@ const About = () => {
                     </li>
                   )}
                 </ul>
-                <a href={information.cvfile} className="my-button">
+                <a
+                  href={information.cvfile}
+                  className="my-button"
+                  download
+                  style={{ marginRight: '1rem' }}
+                >
                   Download CV
+                </a>
+                <a
+                  href={information.cvfile}
+                  className="my-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View CV
                 </a>
               </div>
             </div>

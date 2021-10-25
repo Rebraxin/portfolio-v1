@@ -20,7 +20,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com/Rebraxin',
     },
-    brandImage: '/images/brand-image.jpg',
+    brandImage: '/images/myself.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/CV-Dark-Cedric.pdf',
@@ -130,7 +130,7 @@ const database = {
       id: 3,
       title: 'Neumorphism Design',
       subtitle:
-        "Small CSS integration based on a model by the famous designer Philip Legierski.",
+        'Small CSS integration based on a model by the famous designer Philip Legierski.',
       imageUrl: '/images/portfolio-neumorphism.png',
       largeImageUrl: ['/images/portfolio-neumorphism-lg.png'],
       url: 'https://rebraxin.github.io/neumorphism-design/',
@@ -210,7 +210,19 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: '06/2020 - Present',
+        year: '11/2019 - 11/2021',
+        position: 'Web Developer Frontend',
+        company: 'Affineurs de Talents',
+        details: [
+          'Development of a web/mobile application for cross-border carpooling (Docker-Symfony-React)',
+          "Creation of a 'serious-game' for the local mission of Besançon (Docker-Webpack-React)",
+          'Adding server-side rendering to an existing e-commerce site to solve SEO related issues (React-Express)',
+          "Creation of a calendar plugin compatible with 'Humhub', an existing social network (React-Symfony-Docker)",
+        ],
+      },
+      {
+        id: 2,
+        year: '06/2019 - 11/2019',
         position: 'Self-service Employee',
         company: 'Manpower',
         details: [
@@ -221,8 +233,8 @@ const database = {
         ],
       },
       {
-        id: 2,
-        year: '06/2020 - 09/2020',
+        id: 3,
+        year: '06/2019 - 09/2019',
         position: 'Web Developer Frontend',
         company: 'Autodidact',
         details: [
@@ -235,8 +247,8 @@ const database = {
         ],
       },
       {
-        id: 3,
-        year: '08/2020 - 08/2020',
+        id: 4,
+        year: '08/2019 - 08/2019',
         position: 'Web Developer Frontend',
         company: 'Autodidact',
         details: [
@@ -246,8 +258,8 @@ const database = {
         ],
       },
       {
-        id: 4,
-        year: '07/2020 - 07/2020',
+        id: 5,
+        year: '07/2019 - 07/2019',
         position: 'Web Developer Frontend',
         company: 'Autodidact',
         details: [
@@ -258,8 +270,8 @@ const database = {
         ],
       },
       {
-        id: 5,
-        year: '10/2019 - 05/2020',
+        id: 6,
+        year: '10/2018 - 05/2019',
         position: 'Fullstack Web Developer',
         company: "O'Clock",
         details: [
@@ -272,8 +284,8 @@ const database = {
         ],
       },
       {
-        id: 6,
-        year: '01/2019 - 04/2019',
+        id: 7,
+        year: '01/2018 - 04/2018',
         position: 'Sales Adviser',
         company: 'Leroy Merlin',
         details: [
@@ -285,8 +297,8 @@ const database = {
         ],
       },
       {
-        id: 7,
-        year: '01/2018 - 12/2018',
+        id: 8,
+        year: '01/2017 - 12/2017',
         position: "Cashier's host",
         company: 'Grand Frais',
         details: [
@@ -296,8 +308,8 @@ const database = {
         ],
       },
       {
-        id: 8,
-        year: '02/2010 - 12/2017',
+        id: 9,
+        year: '02/2009 - 12/2016',
         position: 'Roofer-Zinger',
         company: 'Beaufils',
         details: [
@@ -310,8 +322,8 @@ const database = {
         ],
       },
       {
-        id: 9,
-        year: '03/2004 - 04/2007',
+        id: 10,
+        year: '03/2003 - 04/2006',
         position: 'Logistics Agent',
         company: 'Ecotel',
         details: [
@@ -322,8 +334,8 @@ const database = {
         ],
       },
       {
-        id: 10,
-        year: '09/2000 - 06/2003',
+        id: 11,
+        year: '09/1999 - 06/2002',
         position: 'Driver-Delivery',
         company: 'PEJY Transport',
         details: [
@@ -337,7 +349,7 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        year: '10/2019 - 04/2020',
+        year: '10/2018 - 04/2019',
         graduation: 'Higher National Diploma in Web Development',
         university: "O'Clock",
         details: [
@@ -351,7 +363,7 @@ const database = {
       },
       {
         id: 2,
-        year: '09/2008 - 07/2009',
+        year: '09/2007 - 07/2008',
         graduation: 'National Vocational Qualification',
         university: 'Compagnons du Devoir',
         details: [
@@ -360,7 +372,7 @@ const database = {
       },
       {
         id: 3,
-        year: '09/1998 - 07/2000',
+        year: '09/1997 - 07/1999',
         graduation: 'High-School Degree',
         university: 'Ampère College',
         details: ['Traditional schooling'],
