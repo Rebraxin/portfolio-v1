@@ -14,7 +14,7 @@ services:
     networks:
       proxy_bridge:
     env_file:
-      - ./env/.env
+      - ./env/server.env
     labels:
       traefik.enable: true
       traefik.http.routers.portfolio-secure.entrypoints: ${ENTRYPOINT}
