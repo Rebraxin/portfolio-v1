@@ -173,7 +173,7 @@ const database = {
         'Stack : Symfony - React/Redux - MySQL - Gsap - Material UI - Formik - Docker - Git',
       imageUrl: '/images/portfolio-colleag.png',
       largeImageUrl: ['/images/portfolio-colleag-lg.png'],
-      url: 'https://www.devto-clone.cedricpaje.fr/',
+      url: 'https://colleag.com/',
       git: null,
     },
     {
